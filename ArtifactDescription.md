@@ -19,16 +19,16 @@
 * Dockerイメージをpullしてrunする手順を具体的に示す．
 
 ```
-docker pull satoshigeyuki/oss-experiment-uec-2024-example
-docker run -it --rm --name example satoshigeyuki/oss-experiment-uec-2024-example
+docker pull kouki10glow/2024-a2110013-voicevox
+docker run -it --rm --name console kouki10glow/2024-a2110013-voicevox
 ```
 
 * コンテナの中に入った後，最低限の動作チェックを行う方法を示す．
 * シングルコマンドであることが望ましい．
-  + 例えば，`make` を使う．
+  + 以下のコマンドを実行したところエラーが出力された
 
 ```
-make check
+npm ci
 ```
 
 ## 評価手順
