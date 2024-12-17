@@ -25,12 +25,12 @@ docker run -it --rm --name console kouki10glow/2024-a2110013-voicevox
 
 * コンテナの中に入った後，最低限の動作チェックを行う方法を示す．
 * シングルコマンドであることが望ましい．
-  + 以下のコマンドを実行したところエラーが出力された
+  + Docerfileよりイメージをビルドした後,以下のコマンドを実行したところ以下のエラーが出力された
 
 ```
-npm ci
+chmod +x VOICEVOX-CPU.Installer.0.21.1.Linux.sh
 ```
-
+tmp_voicevox_installer.sh: line 397: ./VOICEVOX.AppImage: cannot execute binary file: Exec format error
 ## 評価手順
 
 以下，記述事項の説明．
