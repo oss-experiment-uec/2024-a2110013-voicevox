@@ -20,7 +20,7 @@
 
 ```
 docker pull kouki10glow/2024-a2110013-voicevox
-docker run -it --rm --name console kouki10glow/2024-a2110013-voicevox
+docker run  --platform linux/amd64 -it --rm --name console kouki10glow/2024-a2110013-voicevox
 ```
 
 * コンテナの中に入った後，最低限の動作チェックを行う方法を示す．
