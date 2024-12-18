@@ -28,7 +28,7 @@ docker run  --platform linux/amd64 -it --rm --name console kouki10glow/2024-a211
   + Docerfileよりイメージをビルドした後,以下のコマンドを実行したところ以下のエラーが出力された
 
 ```
-chmod +x VOICEVOX-CPU.Installer.0.21.1.Linux.sh
+./VOICEVOX-CPU.Installer.0.21.1.Linux.sh
 ```
 tmp_voicevox_installer.sh: line 397: ./VOICEVOX.AppImage: cannot execute binary file: Exec format error
 ## 評価手順
