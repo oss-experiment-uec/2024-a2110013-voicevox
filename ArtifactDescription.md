@@ -31,6 +31,7 @@ docker run  --platform linux/amd64 -it --rm --name console kouki10glow/2024-a211
 ./VOICEVOX-CPU.Installer.0.21.1.Linux.sh
 ```
 tmp_voicevox_installer.sh: line 397: ./VOICEVOX.AppImage: cannot execute binary file: Exec format error
+どうやらMacbookでDockerの環境を作成した場合cpuが32bitになってしまいエラーが発生している様.
 ## 評価手順
 
 以下，記述事項の説明．
